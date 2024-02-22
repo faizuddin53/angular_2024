@@ -1,0 +1,7 @@
+<div>
+  @for (item of productlist(); track $index) {
+      <li (click)="productcalled()"> {{item.name}}</li>
+  }
+</div>
+
+<h1> get counter value {{counter()}}</h1>
