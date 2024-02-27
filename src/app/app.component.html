@@ -1,2 +1,10 @@
+<h1>Welcome to Web app something Changes now</h1>
+<!-- click for check update  -->
+<button (click)="applyUpdate()"> check for Update Now</button>
+<button (click)="postSync()">Post Data</button>
+
+<div *ngFor="let emp of apiData">
+  <h2 style="color:green;font-size: 12px;">{{emp.name}}</h2>
+</div>
 
 <router-outlet />
